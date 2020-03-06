@@ -7,5 +7,12 @@ public class myLogger {
         logger.debug("DEBUG");
         logger.info("Just an Info");
 
+        while (true) {
+            logger.error("ERROR");
+            logger.debug("DEBUG");
+            logger.info("Just an Info");
+        }
+
+
     }
 }
